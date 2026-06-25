@@ -14,7 +14,7 @@ Imagen --> Modelo de reconocimiento de setas(en TPU) --> LLM --> Interfaz
 -  Interfaz para hacerlo amigable al usuario.
 
 ##  Instrucciones para ejecutar
--  Descargar los ficheros sever.py, main.py y labels.csv.
+-  Descargar los ficheros sever.py, main.py y labels.txt.
 -  Subir los ficheros sever.py,labels.csv y el modelo de tlflite. Para ello usa el comando `mdt push <NOMBRE DEL FICHERO>`.
 -  Entra accede a la placa utilizando `mdt shell` y luego ejecuta el scrit de python con `python3 server.py`.
--  Ejecuta el main.py en el ordenador principal.
+-  Ejecuta el main.py en el ordenador principal, ya sea desde terminal o desde un editor de código cualquiera.
